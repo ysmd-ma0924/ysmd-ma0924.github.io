@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>塗装工房 牧 | 外壁・屋根のプロフェッショナル</title>
-    <meta name="description" content="岐阜エリアの外壁塗装・屋根塗装は塗装工房 牧へ。国家資格保有の職人が、建物と気候を読み解き、長持ちする“濡れた状態”を設計します。見積もり無料。しつこい営業なし。">
+    <title>塗装工房 牧 | 北九州の外壁・屋根塗装</title>
+    <meta name="description" content="北九州（小倉・門司・戸畑・八幡・若松）中心の外壁塗装・屋根塗装は塗装工房 牧へ。国家資格職人が、建物と気候を読み解き、長持ちする“濡れた状態”を設計。見積もり無料・しつこい営業なし。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -18,7 +18,12 @@
                 <span class="brand-name">塗装工房 牧</span>
             </a>
             <nav class="nav" aria-label="主要ナビゲーション">
-                <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">MENU</button>
+                <button class="nav-toggle" aria-label="メニューを開閉" aria-expanded="false" aria-controls="navMenu">
+                    <span class="sr-only">メニュー</span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
                 <ul id="navMenu" class="nav-list">
                     <li><a href="#about">初めての方へ</a></li>
                     <li><a href="#reasons">選ばれる理由</a></li>
@@ -38,13 +43,13 @@
     </header>
 
     <main id="top">
-        <section class="hero" aria-label="ヒーロー">
+        <section class="hero" aria-label="ヒーロー" data-animate="fade-up">
             <div class="container hero-inner">
                 <div class="hero-copy">
-                    <h1>色を塗るのではなく、<br>“濡れた状態”を設計する。</h1>
+                    <h1>北九州で、色を塗るのではなく、<br>“濡れた状態”を設計する。</h1>
                     <p class="lead">
-                        見た目の変化は入り口。私たちは、塗料の膜厚・希釈・密着を科学し、
-                        気候と下地に最適化。だから、家が長く、美しく、守られる。
+                        見た目の変化は入り口。私たちは、膜厚・希釈・密着を数値で管理し、
+                        北九州の気候と下地に最適化。だから、家が長く、美しく、守られる。
                     </p>
                     <div class="hero-ctas">
                         <a class="btn btn-primary" href="#contact">無料見積もり</a>
@@ -57,12 +62,12 @@
                     </ul>
                 </div>
                 <div class="hero-media">
-                    <img src="assets/img/no-image.svg" alt="施工イメージ（準備中）" loading="lazy">
+                    <img src="assets/img/art/hero-art.svg" alt="現代アート風の施工イメージ" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section section-muted">
+        <section id="about" class="section section-muted" data-animate="fade-up">
             <div class="container">
                 <h2>初めての塗装でも、判断に迷わない。</h2>
                 <p>
@@ -89,7 +94,7 @@
             </div>
         </section>
 
-        <section id="reasons" class="section">
+        <section id="reasons" class="section" data-animate="fade-up">
             <div class="container">
                 <h2>選ばれる理由</h2>
                 <div class="list-features">
@@ -109,22 +114,22 @@
             </div>
         </section>
 
-        <section id="services" class="section section-muted">
+        <section id="services" class="section section-muted" data-animate="fade-up">
             <div class="container">
                 <h2>サービス</h2>
                 <div class="grid-3">
                     <div class="card">
-                        <img src="assets/img/no-image.svg" alt="外壁塗装（準備中）">
+                        <img src="assets/img/art/card-art-1.svg" alt="外壁塗装の現代アート表現">
                         <h3>外壁塗装</h3>
                         <p>シリコン／フッ素／無機など用途別に最適提案。下地補修まで一貫対応。</p>
                     </div>
                     <div class="card">
-                        <img src="assets/img/no-image.svg" alt="屋根塗装（準備中）">
+                        <img src="assets/img/art/card-art-2.svg" alt="屋根塗装の現代アート表現">
                         <h3>屋根塗装</h3>
                         <p>高反射・耐候グレードを選定し、熱・雨・苔に強い屋根へ。</p>
                     </div>
                     <div class="card">
-                        <img src="assets/img/no-image.svg" alt="シーリング（準備中）">
+                        <img src="assets/img/art/card-art-3.svg" alt="シーリング工事の現代アート表現">
                         <h3>シーリング工事</h3>
                         <p>打ち替え・増し打ちの最適化。可塑剤移行・三面接着を回避し長寿命化。</p>
                     </div>
@@ -132,7 +137,7 @@
             </div>
         </section>
 
-        <section id="pricing" class="section">
+        <section id="pricing" class="section" data-animate="fade-up">
             <div class="container">
                 <h2>料金の目安</h2>
                 <div class="pricing">
@@ -165,7 +170,7 @@
             </div>
         </section>
 
-        <section id="works" class="section section-muted">
+        <section id="works" class="section section-muted" data-animate="fade-up">
             <div class="container">
                 <h2>施工事例</h2>
                 <div class="grid-3">
@@ -188,7 +193,7 @@
             </div>
         </section>
 
-        <section id="flow" class="section">
+        <section id="flow" class="section" data-animate="fade-up">
             <div class="container">
                 <h2>ご依頼の流れ</h2>
                 <ol class="flow">
@@ -216,7 +221,7 @@
             </div>
         </section>
 
-        <section id="faq" class="section section-muted">
+        <section id="faq" class="section section-muted" data-animate="fade-up">
             <div class="container">
                 <h2>よくあるご質問</h2>
                 <div class="faq">
@@ -240,7 +245,7 @@
             </div>
         </section>
 
-        <section id="company" class="section">
+        <section id="company" class="section" data-animate="fade-up">
             <div class="container">
                 <h2>会社情報</h2>
                 <div class="company">
@@ -256,7 +261,7 @@
                         </p>
                         <ul class="company-list">
                             <li>保有資格：一級塗装技能士 他</li>
-                            <li>対応エリア：北九州・北九州近郊</li>
+                            <li>対応エリア：北九州（小倉・門司・戸畑・八幡・若松）ほか福岡県内</li>
                             <li>営業時間：8:00-18:00（日曜休）</li>
                         </ul>
                     </div>
@@ -264,7 +269,7 @@
             </div>
         </section>
 
-        <section id="contact" class="section section-accent">
+        <section id="contact" class="section section-accent" data-animate="fade-up">
             <div class="container">
                 <h2>無料相談・お見積もり</h2>
                 <p class="lead">まずはお気軽に。小さな工事のご相談も歓迎です。</p>
@@ -314,6 +319,7 @@
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
-<\/html>
+</html>
+
 
 
