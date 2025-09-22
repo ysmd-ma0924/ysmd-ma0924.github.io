@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="抽象的な現代アート">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1115"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fa9f5"/>
+      <stop offset="1" stop-color="#2f89cc"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.04"/>
+      </feComponentTransfer>
+    </filter>
+    <clipPath id="window">
+      <rect x="0" y="0" width="1200" height="900" rx="28"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g1)"/>
+  <g clip-path="url(#window)">
+    <circle cx="220" cy="220" r="180" fill="url(#g2)" opacity="0.8"/>
+    <rect x="560" y="-40" width="520" height="520" rx="40" fill="#2f89cc" opacity="0.25"/>
+    <rect x="-80" y="520" width="520" height="520" rx="40" fill="#3fa9f5" opacity="0.18"/>
+    <path d="M0,740 C240,660 340,760 520,720 C760,660 900,760 1200,700 L1200,900 L0,900 Z" fill="#2f89cc" opacity="0.22"/>
+    <g opacity="0.7">
+      <path d="M280,560 Q420,500 520,600 T780,600 T1040,560" fill="none" stroke="#3fa9f5" stroke-width="4" stroke-linecap="round"/>
+      <path d="M280,620 Q420,560 520,660 T780,660 T1040,620" fill="none" stroke="#3fa9f5" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    </g>
+    <rect width="1200" height="900" fill="#ffffff" filter="url(#noise)" opacity="0.12"/>
+  </g>
+</svg>
+
+
